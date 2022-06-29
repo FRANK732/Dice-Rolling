@@ -1,11 +1,15 @@
+#import random module to randomly select a number between 0 & 7
 import random
 
+#Give title in the center
 title = "Dice Simulation"
 y = title.center(70)
+# Change the title to uppercase
 y = y.upper()
 print(y)
 
 x = "y"
+# Let's loop through 1 to 6 to pick the number as rolling the dice for a number
 while x == "y":
     Numb = random.randint(1,6)
     x = input("press y to continue ")
